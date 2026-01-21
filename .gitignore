@@ -1,0 +1,19 @@
+# Environment variables (SECRET)
+.env
+
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# FAISS vector store (generated data)
+faiss_store/
+
+# Uploaded file metadata
+metadata/
+
+# OS files
+.DS_Store
+Thumbs.db
