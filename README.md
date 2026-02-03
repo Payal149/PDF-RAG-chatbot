@@ -1,10 +1,10 @@
-# 📄 PDF RAG Chatbot (Streamlit + FAISS + Gemini)
+# PDF RAG Chatbot (Streamlit + FAISS + Gemini)
 
 A **Retrieval-Augmented Generation (RAG)** chatbot that allows you to upload PDFs once, store their content persistently using **FAISS**, and ask questions anytime.
 The chatbot answers **only from the uploaded documents** using Google Gemini.
 
 
-## 🚀 Features
+##  Features
 
 * Upload PDF files only once
 * Persistent document storage using FAISS
@@ -15,7 +15,7 @@ The chatbot answers **only from the uploaded documents** using Google Gemini.
 * Tracks uploaded PDFs internally
 
 
-## 🧠 How It Works
+##  How It Works
 
 1. PDF files are uploaded and read
 2. Text is split into chunks
@@ -27,7 +27,7 @@ The chatbot answers **only from the uploaded documents** using Google Gemini.
    * Gemini generates an answer using only that context
 
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 rag-pdf-chatbot/
@@ -47,30 +47,30 @@ rag-pdf-chatbot/
 ```
 
 
-## 🛠️ Installation
+## Installation
 
-### 1️⃣ Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/your-username/PDF-RAG-chatbot.git
 cd PDF-RAG-chatbot
 ```
 
-### 2️⃣ Create Virtual Environment
+###  Create Virtual Environment
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-### 3️⃣ Install Dependencies
+###  Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
 
-## 🔐 Environment Setup
+##  Environment Setup
 
 Create a `.env` file in the project root:
 
@@ -81,7 +81,7 @@ GOOGLE_API_KEY=your_google_gemini_api_key
 > `.env` is ignored by Git for security.
 
 
-## ▶️ Run the Application
+## Run the Application
 
 ```bash
 streamlit run app.py
@@ -94,7 +94,7 @@ http://localhost:8501
 ```
 
 
-## 🧪 Example Questions
+##  Example Questions
 
 * What is the HR name?
 * What is the joining date?
@@ -104,28 +104,28 @@ http://localhost:8501
 You can ask **multiple questions one after another** without re-uploading PDFs.
 
 
-## 🔒 Security
+##  Security
 
 * API keys are stored securely using `.env`
 * FAISS index and metadata are stored locally
 * No document data is exposed publicly
 
 
-## ⚠️ Notes
+##  Notes
 
 * Free Gemini API has request limits
 * Large PDFs may take time during first upload
 * Answers are limited to document context only
 
 
-## 👩‍💻 Author
+##  Author
 
 **Payal**
 
 Built as a learning and portfolio project for RAG-based AI systems.
 
 
-## ⭐ Support
+##  Support
 
 If you find this project useful, give it a ⭐ on GitHub.
 
